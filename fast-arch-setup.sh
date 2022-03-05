@@ -12,11 +12,5 @@ sudo pacman -Syyy
 sudo pacman -S lib32-nvidia-utils
 sudo pacman -S git ttf-liberation wqy-zenhei steam unzip bluez bluez-utils pulseaudio-bluetooth pulseaudio discord winetricks btop htop neofetch firefox gimp gparted openssh obs-studio ulauncher vi vim virtualbox virtualbox-guest-iso noto-fonts-cjk noto-fonts-emoji
 sudo systemctl enable bluetooth.service
-pamac build davinci-resolve
 sudo modprobe vboxdrv
 sudo usermod -aG vboxusers matej
-nano /etc/pacman.conf
-sudo pacman -Sy
-git clone https://github.com/xerolinux/xero-dracul-git.git
-cd cd xero-dracul-git
-./install.sh
