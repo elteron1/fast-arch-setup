@@ -10,8 +10,8 @@ sudo yay -S pamac-aur
 sudo nano /etc/pacman.conf
 sudo pacman -Syyy
 sudo pacman -S lib32-nvidia-utils
-sudo pacman -S git ttf-liberation wqy-zenhei steam unzip bluez bluez-utils pulseaudio-bluetooth pulseaudio discord winetricks btop htop neofetch gparted openssh obs-studio vi vim virtualbox virtualbox-guest-iso noto-fonts-cjk noto-fonts-emoji
-sudo yay -S brave-bin
+sudo pacman -S git ttf-liberation wqy-zenhei steam unzip bluez bluez-utils pulseaudio-bluetooth pulseaudio discord winetricks btop htop neofetch gparted openssh obs-studio vi vim virtualbox virtualbox-guest-iso noto-fonts-cjk noto-fonts-emoji 
+sudo yay -S brave-bin anydesk-bin
 sudo systemctl enable bluetooth.service
 sudo modprobe vboxdrv
 sudo usermod -aG vboxusers matej
